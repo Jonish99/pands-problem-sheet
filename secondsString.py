@@ -1,5 +1,5 @@
-#for week 3 assigment
-#a programme to take a string and output every 2nd char in reverse order
+#Week 3 assigment
+#A program that takes a string, revereses it and outputs every second letter.
 #Author: Jon Ishaque
 #See README.md for references
 
