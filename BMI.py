@@ -1,5 +1,5 @@
 #Assignment wk 2
-#Programme to take 2 inputs and calcualte BMI
+#A program that allows a user to enter their weight in KG and height in Metres which calculates and outputs the BMI for the inputs.
 #Author: Jon Ishaque
 
 #output instruction and input values for vars, height and weight
