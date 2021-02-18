@@ -1,5 +1,5 @@
-#program to get the week date from today's date 
-#or any date and determine if it is weekday.
+#A Programme that determines the day of the week from the system date., and outputs a message depending on whether it is a weekday or weekend.
+#It can be extended to allow the user to input any date
 
 #Author: Jon Ishaque
 
