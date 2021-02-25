@@ -10,17 +10,18 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 ### References:
     Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python> [Accessed 3rd February 2021].
 
-
+    W3schools.com. 2021. Python Numbers. [online] Available at: <https://www.w3schools.com/python/python_numbers.asp> [Accessed 28 Jan 2021].
 ## [02 seconds.py]
 
     A program that takes a string, revereses it and outputs every second letter.
 
-
 ### References:
 
-    Python, G., Aytekin, C., Pieters, M., TP, S. and Iddon, J., 2021. Getting every nth character in the string in Python. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/46503865/getting-every-nth-character-in-the-string-in-python> [Accessed 3 February 2021].
+    Python, G., Aytekin, C., Pieters, M., TP, S. and Iddon, J., 2021. Getting every nth character in the string in Python. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/46503865/getting-every-nth-character-in-the-string-in-python> [Accessed 3rd February 2021].
 
-     W3schools.com. 2021. How to reverse a String in Python. [online] Available at: <https://www.w3schools.com/python/python_howto_reverse_string.asp> [Accessed 3rd February 2021].
+    W3schools.com. 2021. How to reverse a String in Python. [online] Available at: <https://www.w3schools.com/python/python_howto_reverse_string.asp> [Accessed 3rd February 2021].
+
+    Docs.python.org. 2021. Built-in Functions — Python 3.9.2 documentation. [online] Available at: <https://docs.python.org/3/library/functions.html> [Accessed 3rd February 2021].
     
     
 ## [03 collatz.py]
@@ -31,6 +32,12 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     If it is odd it is multiplied by 3 and 1 is added and then the value is assigned to current value.
     The program ends when the current value is 1
 
+## References
+    Programiz.com. 2021. Python if, if...else, if...elif...else and Nested if Statement. [online] Available at: <https://www.programiz.com/
+    
+    python-programming/if-elif-else> [Accessed 12 February 2021].
+    W3schools.com. 2021. Python While Loops. [online] Available at: <https://www.w3schools.com/python/python_while_loops.asp> [Accessed 12 February 2021].
+
 ## [04 weekday.py]
 
     A Programme that determines the day of the week from the system date., and outputs a message depending on whether it is a weekday or weekend.
@@ -38,6 +45,8 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 
 ### References:
     date?, H., Visser, S. and Ramaswamy, K., 2021. How do I get the day of week given a date?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date> [Accessed 18 February 2021].
+
+    Python, R., 2021. Lists and Tuples in Python – Real Python. [online] Realpython.com. Available at: <https://realpython.com/python-lists-tuples/> [Accessed 25 February 2021].
 
 ## [05 squareroot.py]
 
@@ -83,17 +92,19 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     While i < 50
     guess =  (num/guess – guess)/2
     i+1
-    The program requires a guess, which can’t be hard coded. For this program it is half of the original number, depending on the number, the root and the degree of accuracy required, the programme will need to stop a some point. The example above gives a finite number of iterations. Easier on the processor would be to determine a level of accuracy by the size of the fraction returned and compare it to the previous interaction. The following snippet references: (python, 2021)
+    The program requires a guess, which can’t be hard coded. For this program it is half of the original number, depending on the number, the root and the degree of accuracy required, the programme will need to stop a some point. The example above gives a finite number of iterations. Easier on the processor would be to determine a level of accuracy by the size of the fraction returned and compare it to the previous interaction. The following snippet references: (python, 2021),(Break, Continue, and Pass Statements in For and While Loops | DigitalOcean, 2021)
     If abs(prevGuess – guessRoot) < .00001:
         Break
     Else
         prevGuess = guessRoot
 
-    In the final program I have used a while True loop inside the function which returns the value when the above condition has been met.
+    In the final program I have used a while True (Python While Loops, 2021) loop inside the function which returns the value when the above condition has been met.
 
 
 
 ### References
+    DigitalOcean. 2021. Break, Continue, and Pass Statements in For and While Loops | DigitalOcean. [online] Available at: <https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3> [Accessed 25 February 2021].
+
     Brilliant.org. 2021. Newton Raphson Method | Brilliant Math & Science Wiki. [online] Available at: <https://brilliant.org/wiki/newton-raphson-method/> [Accessed 25 February 2021].
 
     Encyclopedia Britannica. 2021. Derivative | mathematics. [online] Available at: <https://www.britannica.com/science/derivative-mathematics> [Accessed 25 February 2021].
@@ -105,6 +116,7 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 
     School-for-champions.com. 2021. Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. [online] Available at: <https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDd0-dzLdhF> [Accessed 25 February 2021]
 
+    W3schools.com. 2021. Python While Loops. [online] Available at: <https://www.w3schools.com/python/python_while_loops.asp> [Accessed 25 February 2021].
 
 
 ## General References:
