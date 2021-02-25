@@ -1,28 +1,29 @@
-## pands-problem-sheet
+### pands-problem-sheet
+
 GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 
-References:
 
-# [1. bmi.py] (bmi.py)
+
+## [1. bmi.py] (bmi.py)
     A program that allows a user to enter their weight in KG and height in Metres which calculates and outputs the BMI for the inputs.
 
-# References:
+### References:
     Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python> [Accessed 3rd February 2021].
 
 
-# [02 seconds.py]
+## [02 seconds.py]
 
     A program that takes a string, revereses it and outputs every second letter.
 
 
-# References:
+### References:
 
     Python, G., Aytekin, C., Pieters, M., TP, S. and Iddon, J., 2021. Getting every nth character in the string in Python. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/46503865/getting-every-nth-character-in-the-string-in-python> [Accessed 3 February 2021].
 
      W3schools.com. 2021. How to reverse a String in Python. [online] Available at: <https://www.w3schools.com/python/python_howto_reverse_string.asp> [Accessed 3rd February 2021].
     
     
-# [03 collatz.py]
+## [03 collatz.py]
 
     A program that takes a positive integer as input.
     The programme performs a calculation on the current value, (starting with input).
@@ -30,22 +31,22 @@ References:
     If it is odd it is multiplied by 3 and 1 is added and then the value is assigned to current value.
     The program ends when the current value is 1
 
-# [04 weekday.py]
+## [04 weekday.py]
 
     A Programme that determines the day of the week from the system date., and outputs a message depending on whether it is a weekday or weekend.
     It can be extended to allow the user to input any date
 
-# References:
+### References:
     date?, H., Visser, S. and Ramaswamy, K., 2021. How do I get the day of week given a date?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date> [Accessed 18 February 2021].
 
-# [05 squareroot.py]
+## [05 squareroot.py]
 
-## Introduction:
+### Introduction:
     Although the learning objective of this PandD problem is to demonstrate the use of functions in python, it required using a level of maths beyond the normal scope of the programmer’s experience, Newton’s Method. It would be disingenuous, to copy and amend one the numerous examples of using python and comment the code without demonstrating an understanding of principle of Newton’s Method for approximating the square of a number and developing ones own code to that.
 
-## To solve this PandD problem:
+### To solve this PandD problem:
 
-## 1.	Determine the meaning of Newtons method:
+### 1.	Determine the meaning of Newtons method:
     ‘Newtons method is based on the geometry of a curve. The method requires that a initial guess of the root must be made, putting the guess into an equation to get a new guess and repeating the process until the root is found’. (Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions, 2021)
     More simplistically it can be described in repeating the following equation on a candidate number until an approximation is found
     ‘√ N ≈ ½(N/A + A)’ (Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions, 2021). 
@@ -54,7 +55,7 @@ References:
     A is the guess
     If we repeat the equation using the outcome of the previous equation as the guess, we will get closer and closer to a square root.
 
-## 2.Test Newtons Method
+### 2.Test Newtons Method
     N = 94
     A= 5
     1st attempt
@@ -73,7 +74,7 @@ References:
     Check: 9.6953 * 9.6953 = 93.998 Very close
     The above demonstrates that the method works, and with greater accuracy eventually find the square root.
 
-## 3.	 Experiment with python code
+### 3.	 Experiment with python code
 
     num =  4 a number to be input 
     guess = 3 a reasonable guess, in reality a number between num/2 and num
@@ -92,7 +93,7 @@ References:
 
 
 
-## References
+### References
     Brilliant.org. 2021. Newton Raphson Method | Brilliant Math & Science Wiki. [online] Available at: <https://brilliant.org/wiki/newton-raphson-method/> [Accessed 25 February 2021].
 
     Encyclopedia Britannica. 2021. Derivative | mathematics. [online] Available at: <https://www.britannica.com/science/derivative-mathematics> [Accessed 25 February 2021].
@@ -106,7 +107,7 @@ References:
 
 
 
-# General References:
+## General References:
     Matthes, E., 2019. Python crash course. San Francisco, CA: No Starch Press.
 
     McKinney, W., 2013. Python for data analysis. Beijing [etc.]: O'Reilly.
