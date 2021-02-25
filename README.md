@@ -10,7 +10,7 @@ References:
     Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python> [Accessed 3rd February 2021].
 
 
-# [02 seconds.py] (seconds.py) 3rd
+# [02 seconds.py]
 
     A program that takes a string, revereses it and outputs every second letter.
 
@@ -22,7 +22,7 @@ References:
      W3schools.com. 2021. How to reverse a String in Python. [online] Available at: <https://www.w3schools.com/python/python_howto_reverse_string.asp> [Accessed 3rd February 2021].
     
     
-# [03 collatz.py] (collatz.py) 10th
+# [03 collatz.py]
 
     A program that takes a positive integer as input.
     The programme performs a calculation on the current value, (starting with input).
@@ -30,7 +30,7 @@ References:
     If it is odd it is multiplied by 3 and 1 is added and then the value is assigned to current value.
     The program ends when the current value is 1
 
-# [04 weekday.py] (weekday.py)
+# [04 weekday.py]
 
     A Programme that determines the day of the week from the system date., and outputs a message depending on whether it is a weekday or weekend.
     It can be extended to allow the user to input any date
@@ -38,7 +38,7 @@ References:
 # References:
     date?, H., Visser, S. and Ramaswamy, K., 2021. How do I get the day of week given a date?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date> [Accessed 18 February 2021].
 
-# [05 squareroot.py](squareroot.py)
+# [05 squareroot.py]
 
 ## Introduction:
     Although the learning objective of this PandD problem is to demonstrate the use of functions in python, it required using a level of maths beyond the normal scope of the programmer’s experience, Newton’s Method. It would be disingenuous, to copy and amend one the numerous examples of using python and comment the code without demonstrating an understanding of principle of Newton’s Method for approximating the square of a number and developing ones own code to that.
