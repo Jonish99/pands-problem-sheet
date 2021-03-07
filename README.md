@@ -51,7 +51,7 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 ## [05 squareroot.py]
 
 ### Introduction:
-    Although the learning objective of this PandD problem is to demonstrate the use of functions in python, it required using a level of maths beyond the normal scope of the programmer’s experience, Newton’s Method. It would be disingenuous, to copy and amend one the numerous examples of using python and comment the code without demonstrating an understanding of principle of Newton’s Method for approximating the square of a number and developing ones own code to that.
+    Although the learning objective of this PandD problem is to demonstrate the use of functions in python, it required using a level of maths beyond the normal scope of the programmer’s experience, Newton’s Method. It would be disingenuous, to copy and amend one the numerous examples of using python and comment the code without demonstrating an understanding of principle of Newton’s Method for approximating the square of a number and developing ones own code to dothat.
 
 ### To solve this PandD problem:
 
@@ -65,10 +65,13 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     If we repeat the equation using the outcome of the previous equation as the guess, we will get closer and closer to a square root.
 
 ### 2.Test Newtons Method
+
+    √ N ≈ ½(N/A + A)
+
     N = 94
     A= 5
     1st attempt
-    √ N ≈ ½(N/A + A)
+    
 
     √94= .5 * (94/5+5) = 11.9
     Check: 11.9 * 11.9 = 141 – still some way off
@@ -85,20 +88,21 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 
 ### 3.	 Experiment with python code
 
-    num =  4 a number to be input 
-    guess = 3 a reasonable guess, in reality a number between num/2 and num
+    num =  16 a number to be input 
+    guess = 8 a reasonable guess, in reality a number between num/2 and num
     Sqrt =  (num/guess – guess)/2
     To repeated in a loop
     While i < 50
-    guess =  (num/guess – guess)/2
-    i+1
+        guess =  (num/guess – guess)/2
+        i+1
     The program requires a guess, which can’t be hard coded. For this program it is half of the original number, depending on the number, the root and the degree of accuracy required, the programme will need to stop a some point. The example above gives a finite number of iterations. Easier on the processor would be to determine a level of accuracy by the size of the fraction returned and compare it to the previous interaction. The following snippet references: (python, 2021),(Break, Continue, and Pass Statements in For and While Loops | DigitalOcean, 2021)
+    
     If abs(prevGuess – guessRoot) < .00001:
         Break
     Else
         prevGuess = guessRoot
 
-    In the final program I have used a while True (Python While Loops, 2021) loop inside the function which returns the value when the above condition has been met.
+    In the final program I have used a while True loop (Python While Loops, 2021) inside the function which returns the programme final approximation when the above condition has been met.
 
 
 
@@ -117,6 +121,25 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     School-for-champions.com. 2021. Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. [online] Available at: <https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDd0-dzLdhF> [Accessed 25 February 2021]
 
     W3schools.com. 2021. Python While Loops. [online] Available at: <https://www.w3schools.com/python/python_while_loops.asp> [Accessed 25 February 2021].
+
+
+
+### es.py
+
+    A program, that will read a text file and count the number of es. The text file is defined by the user on the command line, it is checked if exists and checked for file extension. The approriate system path of the program directory is determined. The file is opened, the number of es is the file are counted and it is the value is returned to the user. 
+
+
+### References
+
+    GeeksforGeeks. 2021. Python | Count occurrences of a character in string - GeeksforGeeks. [online] Available at: <https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/> [Accessed 5 March 2021].
+    
+    Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-use-while-not-in-python#> [Accessed 7 March 2021].
+
+    Python Central. 2021. One line if statement in Python (ternary conditional operator) - Python Central. [online] Available at: <https://www.pythoncentral.io/one-line-if-statement-in-python-ternary-conditional-operator/> [Accessed 7 March 2021].
+
+    string, F., Soni, P. and Poggi, R., 2021. Find index of last occurrence of a substring in a string. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9572490/find-index-of-last-occurrence-of-a-substring-in-a-string> [Accessed 5 March 2021].
+
+
 
 
 ## General References:
