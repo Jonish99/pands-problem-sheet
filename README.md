@@ -1,6 +1,6 @@
-### pands-problem-sheet
+# pands-problem-sheet
 
-GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
+## GMIT repository for Jon Ishaque Programming AND Scripting ProblemS 2021
 
 
 
@@ -32,7 +32,7 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     If it is odd it is multiplied by 3 and 1 is added and then the value is assigned to current value.
     The program ends when the current value is 1
 
-## References
+### References
     Programiz.com. 2021. Python if, if...else, if...elif...else and Nested if Statement. [online] Available at: <https://www.programiz.com/
     
     python-programming/if-elif-else> [Accessed 12 February 2021].
@@ -44,9 +44,9 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
     It can be extended to allow the user to input any date
 
 ### References:
-    date?, H., Visser, S. and Ramaswamy, K., 2021. How do I get the day of week given a date?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date> [Accessed 18 February 2021].
-
     Python, R., 2021. Lists and Tuples in Python – Real Python. [online] Realpython.com. Available at: <https://realpython.com/python-lists-tuples/> [Accessed 25 February 2021].
+
+    Visser, S. and Ramaswamy, K., 2021. How do I get the day of week given a date?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date> [Accessed 18 February 2021].
 
 ## [05 squareroot.py]
 
@@ -139,14 +139,54 @@ GMIT repository for Jon Ishaque Programming and Scripting Problem sets. 2021
 
     string, F., Soni, P. and Poggi, R., 2021. Find index of last occurrence of a substring in a string. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9572490/find-index-of-last-occurrence-of-a-substring-in-a-string> [Accessed 5 March 2021].
 
+## plotask.py
 
+
+
+### References
+
+    Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python#> [Accessed 11 March 2021].
+    
+    Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-set-axis-ranges-in-matplotlib-in-python#> [Accessed 11 March 2021].
+
+    Matplotlib.org. 2021. Pyplot tutorial — Matplotlib 3.3.4 documentation. [online] Available at: <https://matplotlib.org/stable/tutorials/introductory/pyplot.html> [Accessed 11 March 2021].
+
+    Matplotlib.org. 2021. Text in Matplotlib Plots — Matplotlib 3.3.4 documentation. [online] Available at: <https://matplotlib.org/stable/tutorials/text/text_intro.html> [Accessed 11 March 2021].
+
+    Matplotlib.org. 2021. Title positioning — Matplotlib 3.3.4 documentation. [online] Available at: <https://matplotlib.org/stable/gallery/text_labels_and_annotations/titles_demo.html> [Accessed 11 March 2021].
 
 
 ## General References:
+
+    Caron, A., MONKEY, R. and Haas, J., 2021. How to reliably open a file in the same directory as a Python script. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/4060221/how-to-reliably-open-a-file-in-the-same-directory-as-a-python-script> [Accessed 4 March 2021].
+
+    Gallagher, J., 2021. Python Random Choice: A How-To Guide | Career Karma. [online] Career Karma. Available at: <https://careerkarma.com/blog/python-random-choice/> [Accessed 11 March 2021].
+
+    GeeksforGeeks. 2021. numpy.random.choice() in Python - GeeksforGeeks. [online] Available at: <https://www.geeksforgeeks.org/numpy-random-choice-in-python/> [Accessed 11 March 2021].
+
+    GeeksforGeeks. 2021. Python | os.path.isfile() method - GeeksforGeeks. [online] Available at: <https://www.geeksforgeeks.org/python-os-path-isfile-method/> [Accessed 4 March 2021].
+
+    Karlsson, H., 2021. Python can't find .txt-file. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/49217617/python-cant-find-txt-file> [Accessed 4 March 2021].
+
+    Kite.com. 2021. Code Faster with Line-of-Code Completions, Cloudless Processing. [online] Available at: <https://www.kite.com/python/answers/how-to-make-multiple-plots-on-the-same-figure-in-matplotlib-in-python#> [Accessed 11 March 2021].
+
     Matthes, E., 2019. Python crash course. San Francisco, CA: No Starch Press.
+
+    McKinney, W., 2013. Python for data analysis. Beijing [etc.]: O'Reilly. 
+    Matthes, E., 2019. Python crash course. San Francisco, CA: No Starch Press.
+
+    Maia, D., Graham, M., T, N. and Boehm, M., 2021. Should I use `import os.path` or `import os`?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/2724348/should-i-use-import-os-path-or-import-os> [Accessed 4 March 2021]
+
+    Matplotlib.org. 2021. Text in Matplotlib Plots — Matplotlib 3.3.4 documentation. [online] Available at: <https://matplotlib.org/stable/tutorials/text/text_intro.html> [Accessed 11 March 2021].
+
+    Matplotlib.org. 2021. Title positioning — Matplotlib 3.3.4 documentation. [online] Available at: <https://matplotlib.org/stable/gallery/text_labels_and_annotations/titles_demo.html> [Accessed 11 March 2021].
 
     McKinney, W., 2013. Python for data analysis. Beijing [etc.]: O'Reilly.
 
+    Pieters, M. and TAYADE, P., 2021. Why do I get a SyntaxError for a Unicode escape in my file path?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/18084554/why-do-i-get-a-syntaxerror-for-a-unicode-escape-in-my-file-path> [Accessed 4 March 2021].
+
     Programiz.com. 2021. How to get current date and time in Python?. [online] Available at: <https://www.programiz.com/python-programming/datetime/current-datetime> [Accessed 25 February 2021].
+
+    Stackoverflow 2012, accessed 17th February 2021,<https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date>
 
     Stackoverflow 2012, accessed 17th February 2021,<https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date>
