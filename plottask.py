@@ -12,20 +12,27 @@ import matplotlib.pyplot as plt
 import numpy as np 
 
 #create f(xa)=x arrays -'f'
-xpoints1 =np.array(range(0,4))
-ypoints1 = xpoints1 
+#x inputs constant for 3 functions
+xpoints =np.array(range(0,4))
+ypoints1 = xpoints 
 
-#create g(x)=x2
-xpoints2 =np.array(range(0,4))
-ypoints2 = xpoints2 *2
+#create g(x)=x2 - 'g'
+ypoints2 = xpoints * 2
 
-#create h(x)=x3
-xpoints3 =np.array(range(0,4))
-ypoints3 = xpoints3 * 3
+#create h(x)=x3 - 'h'
+
+ypoints3 = xpoints * 3
 
 
 #create a plot with lists as coordinates
-plt.plot(xpoints,ypoints)
+#plot function f
+plt.plot(xpoints,ypoints1)
+#plot function g
+plt.plot(xpoints,ypoints2)
+#plot function h
+plt.plot(xpoints,ypoints3)
+plt.legend(["f(x)=x", "g(x)=x2","h(x)=x3"])
+#
 #add a title
 #plt.title(label="y = x*x")
 #add label to y axis
