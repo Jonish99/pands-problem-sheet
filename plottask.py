@@ -34,10 +34,22 @@ plt.plot(xpoints,ypoints3)
 plt.legend(["f(x)=x", "g(x)=x2","h(x)=x3"])
 #
 #add a title
-#plt.title(label="y = x*x")
+plt.title(label="Plot showing 3 functions")
 #add label to y axis
 plt.ylabel=("Y axis")
 #add label to x axis
-plt.ylabel=("X axis")
+plt.xlabel=("X axis")
+#show the plot
+print (ypoints3)
+plt.plot(range(5))
+
+#axes upt to 12 to account for you = 4 * 3 on h function
+plt.xlim(0, 12)
+plt.ylim(0, 12)
+
+
 #show the plot
 plt.show()
+
+#save the plot
+plt.savefig("Three functions.png")
