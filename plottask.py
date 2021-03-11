@@ -24,14 +24,18 @@ ypoints2 = xpoints * 2
 ypoints3 = xpoints * 3
 
 
-#create a plot with lists as coordinates
+#create s, add label so legend and line colors are synched
+
 #plot function f
-plt.plot(xpoints,ypoints1)
+plt.plot(xpoints,ypoints1, label="f(x)=x")
+
 #plot function g
-plt.plot(xpoints,ypoints2)
+plt.plot(xpoints,ypoints2,label="g(x)=x2")
+
 #plot function h
-plt.plot(xpoints,ypoints3)
-plt.legend(["f(x)=x", "g(x)=x2","h(x)=x3"])
+plt.plot(xpoints,ypoints3,label="h(x)=x3")
+#add legend with best location
+plt.legend(loc="best")
 #
 #add a title
 plt.title(label="Plot showing 3 functions")
@@ -43,9 +47,9 @@ plt.xlabel=("X axis")
 print (ypoints3)
 plt.plot(range(5))
 
-#axes upt to 12 to account for you = 4 * 3 on h function
-plt.xlim(0, 12)
-plt.ylim(0, 12)
+#axes upto 8
+plt.xlim(0, 8)
+plt.ylim(0, 8)
 
 
 #show the plot
