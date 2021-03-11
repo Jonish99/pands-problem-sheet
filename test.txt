@@ -1,0 +1,11 @@
+This text file is used to test the Es.py program
+
+EEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeeeeeeeeeeeeeeeeeeee!
+
+A program that create a dictionary for students, each student will have different modules, each module could have different grades.
+i.e. dictionary of a dictionary
+top level dicionary is student, keys are name, modules
+module dictionaryies contains an array of courses which are each dictionaries
+each module dictionary contains the two key/value pairs, course name and the grade for the course
+
+Dr. Enno RodegerdtsThe Nautical Almanac Daily Pages  and Sun Almanacs found herein and on our site were createdor derived from PyAlmanac written by the great Norwegian sailor Enno Rodegerdts.  PyAlmanacuses PyEphem to generate the almanacs and LaTex provides the final formatting. Visit Dr.Rodegerdts site and learn of his voyages at https://sv-inua.net/Without his work TheNauticalAlmanac.com wouldn't exist.Andrew BauerMr. Bauer has taken the initial work of Dr. Rodegerdts and improved it to the excellence nowfound in the following Daily Pages.   Attending foremost to the accuracy of data and thenformatting Mr. Bauer modified PyAlmanac to provide a clear arrangement of  figures needed forcelestial navigation.  To that end his work was determined, tireless and efficient.  In our mutualwriting across many lines of longitude he has always been pleasant, friendly and most affable.  As he has said, "The art of celestial navigation should be promoted, not discouraged, even in themodern day".To both of these men we all owe a large debt of gratitude and thanksDisclaimer and WarningPrior to use verify the accuracy of The Nautical Almanac or data you download from our site.They SHOULD NOT and MUST NOT be relied upon for celestial navigation work of any sorts orany purpose whatsoever. You use them at your own risk or peril.Errors & CorrectionsContact us if you find any significant errors and describe the correction that should be made.
