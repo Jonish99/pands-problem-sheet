@@ -140,7 +140,7 @@
     string, F., Soni, P. and Poggi, R., 2021. Find index of last occurrence of a substring in a string. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/9572490/find-index-of-last-occurrence-of-a-substring-in-a-string> [Accessed 5 March 2021].
 
 ## plotask.py
-
+    A Program that uses Matplotlib to show the plots of 3 functions. The program has no user impurts and displays a .png file as output.
 
 
 ### References
