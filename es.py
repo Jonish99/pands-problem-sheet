@@ -58,41 +58,39 @@ def countEs(eString):
 
 #main program
 
-#initiate variable to control while loop.
-userf=""
 
 
-#loop until user enters 'q'
-while userf !="q":
-    #get user to input name of file to count the es.    
-    userf = input('Please enter the name of the txt file of you which you wish to count the es:') 
-    #quit if user has enter q
-    if userf=="q" : exit() 
+    
 
-    #pass the input to check for .txt file extension. The function will return a file name with the .txt extenstion
-    filen =  checkForTxt(userf)
 
-    #this system requires an absolute path from to find file
-    #my OS does not (always) read relative paths in python. I could use hardcoded paths, not useful when porting the program to other systems
-    #assign file name & prefix double slash to join file name string
-    mypath =str(os.path.dirname(os.path.abspath(sys.argv[0])))
+#pass the input to check for .txt file extension. The function will return a file name with the .txt extenstion
+#get the file name from 1st argument passed at the command line
+#print(sys.argv[1])
+filen =  sys.argv[1]
 
-    #join the path with the filen. "\\" is the directory seperator being used in this path format
-    filename = mypath+"\\"+filen
+#this system requires an absolute path from to find file
+#my OS does not (always) read relative paths in python. I could use hardcoded paths, not useful when porting the program to other systems
+#assign file name & prefix double slash to join file name string
+mypath =str(os.path.dirname(os.path.abspath(sys.argv[0])))
 
-    # check file exists
-    if not os.path.isfile(filename):
-        print("File does not exist, or enter q to quit")
-        #initialise file here
+#join the path with the filen. "\\" is the directory seperator being used in this path format
+filename = mypath+"\\"+filen
 
-    else: #file does exist
-        #assign the string from function call to read file with filename
-        stringf = readFile(filename)
+# check file exists
+if not os.path.isfile(filename):
+    print("File does not exist, or enter q to quit")
+    #initialise file here
+    k=input("press close to exit") 
+else: #file does exist
+    #assign the string from function call to read file with filename
+    stringf = readFile(filename)
 
-        #call the counteEs function with the string with es to count, as the argument, format the returned number and the file name into the
-        #output string. I could also call the readFile function here, and pass the return directly as an argument to countEs, I have not done so as it is more 
-        #difficult to read.
-        print("The file, {}, contains {} es".format(filen,countEs(stringf)))
+    #call the counteEs function with the string with es to count, as the argument, format the returned number and the file name into the
+    #output string. I could also call the readFile function here, and pass the return directly as an argument to countEs, I have not done so as it is more 
+    #difficult to read.
+    print("The file, {}, contains {} es".format(filen,countEs(stringf)))
+    k=input("press close to exit") 
+        
         
 
 
