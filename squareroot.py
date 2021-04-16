@@ -2,10 +2,10 @@
 See the README.md to understand how this programmer came up with the solution below, the program has an i counter, commented out,
 which can be printed to see how many interations it took.  '''
 
-
+#Author: Jon Ishaque
 
 #Functions
-#define function, receive on argument, the number to find the root of
+#define function, receive an argument, the number to find the root of
 def newtonSrt(num):
     #1st guess, have the origiginal number. 
     #convert to float because if 20 is halved it will return an integer which will define the guess as an integer, but the value is reassigned later
@@ -21,19 +21,20 @@ def newtonSrt(num):
         #The function returns the guess (and the loop exits)
         #The number of decimal places of .1 determines the accuracy of the program
         if (guessRoot-NewGuess) < .00001:
-            return NewGuess
+            #print counter if user wants to know how many iterations of the loop are used
+            #print ("Number of 'guesses': ",i)
+            return NewGuess #and therefore exit thefunction
         
         #if the return condtion is not met, we assign the latest guess to guessRoot variable for the next interation of the loop
         guessRoot = NewGuess
         #increment counter
         i +=1
-    #print counter if user want to know how many interations of the loop are used
-    #print (i)
+    
 
 
 #Main program
-#use the 
-num = float(input("Enter a number to test the programme:"))
+
+num = float(input("Enter a positve number to test the programme:"))
 #call the function, newtonSrt passing the input number as an argument
 #Output original number and the square formatted to 4 decimal places
-print("The square root of {} is {:.4f}".format(num,newtonSrt(num)))
+print("The square root of {} is approx, {:.4f}".format(num,newtonSrt(num)))

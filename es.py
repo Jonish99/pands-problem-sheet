@@ -1,6 +1,9 @@
-'''A program, that will read a text file and count the number of es. The text file is defined by the user on the command line, 
-it is checked if exists and checked for file extension. The approriate system path of the program directory is determined. 
-The file is opened, the number of es is the file are counted and it is the value is returned to the user. '''
+'''A program, that will read a text file and count the number of es. 
+The text file is defined by the user on the command line when the script
+is executed, eg python es.py xyz.txt, it is checked if exists and checked for file extension. 
+The approriate system path of the program directory is determined. 
+The file is opened, the number of es is the file are counted and it is the value is returned to the user.
+If the file does not exist as message is returned to the user '''
 
 #Author: Jon Ishaque
 
@@ -65,7 +68,7 @@ def countEs(eString):
 
 #pass the input to check for .txt file extension. The function will return a file name with the .txt extenstion
 #get the file name from 1st argument passed at the command line
-#print(sys.argv[1])
+print(sys.argv[1])
 filen =  sys.argv[1]
 
 #this system requires an absolute path from to find file
@@ -78,9 +81,9 @@ filename = mypath+"\\"+filen
 
 # check file exists
 if not os.path.isfile(filename):
-    print("File does not exist, or enter q to quit")
-    #initialise file here
-    k=input("press close to exit") 
+    print("File does not exist")
+    #pause the script to allow the user to read output.
+    k=input("press any key to exit") 
 else: #file does exist
     #assign the string from function call to read file with filename
     stringf = readFile(filename)
@@ -89,7 +92,7 @@ else: #file does exist
     #output string. I could also call the readFile function here, and pass the return directly as an argument to countEs, I have not done so as it is more 
     #difficult to read.
     print("The file, {}, contains {} es".format(filen,countEs(stringf)))
-    k=input("press close to exit") 
+    k=input("press any key to exit") 
         
         
 
